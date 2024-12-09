@@ -1,0 +1,43 @@
+Installation of VS Code on Windows 11
+Prerequisites:  A Windows 11 system with internet access.
+
+Download the VS Code installer for Windows from the official website [Visual Studio Code].
+Run the installer and accept the license agreement. Choose your preferred installation location (default is recommended) and adjust optional settings like creating a desktop shortcut.
+Click "Install" and follow the on-screen instructions. VS Code will be installed on your system.
+First-time Setup for Optimal Coding
+Initial Configuration:
+
+Explore the VS Code interface and customize the theme (Settings > Appearance) and font size (Settings > Editor) for better readability.
+Install essential extensions for your development needs. The "Extensions" view (Ctrl+Shift+X) allows browsing and installing extensions. Consider extensions like "Debugger" for debugging and "ESLint" for code linting (web development).
+User Interface Overview
+Activity Bar (left): Provides access to common actions like opening files, searching, and running tasks.
+Side Bar (left): Houses the Explorer view (file management), Git view (version control), and other tools depending on installed extensions.
+Editor Group (center): The main workspace where you write and edit code. You can have multiple editors open in tabs.
+Status Bar (bottom): Displays information about the current file, language mode, indentation, and other relevant details.
+Command Palette (Ctrl+Shift+P)
+The Command Palette is a powerful tool to access all VS Code functionalities through a searchable interface.
+
+Examples: Search for "Open File" to open a file, "Run Build Task" to compile your code, or "Install Extension" to discover new extensions.
+Extensions in VS Code
+Extensions enhance VS Code's functionality.
+
+Finding & Installing: Open the Extensions view (Ctrl+Shift+X). Browse categories or search for specific extensions. Click "Install" to add them to VS Code.
+Web Development Examples: "ESLint" for linting JavaScript code, "Live Server" for live previewing web pages, "Bracket Pair Colorizer" for improved code readability.
+Integrated Terminal
+Open Terminal: Go to Terminal > New Terminal (Ctrl+` backtick).
+Advantages: Integrates seamlessly with VS Code, allowing code execution and debugging within the same environment. No need to switch between separate terminal windows.
+File and Folder Management
+Create Files/Folders: Right-click in the Explorer view and select "New File" or "New Folder".
+Open Files: Double-click a file in the Explorer view or use the "Open File" command (Ctrl+O).
+Navigation: Use the Explorer view to browse directories. The breadcrumb navigation bar helps you jump to different folder levels.
+Settings and Preferences
+Customization: Access settings through the gear icon in the Status Bar or File > Preferences > Settings.
+Examples: Change theme (Settings > Appearance), adjust font size (Settings > Editor), modify keyboard shortcuts (Settings > Keyboard Shortcuts).
+Debugging in VS Code
+Set breakpoints (lines where execution pauses) in your code.
+Start debugging (Run and Debug button or F5 key).
+VS Code allows stepping through code line by line, inspecting variables, and setting watches on variables to monitor their values.
+Using Source Control with Git
+Install the Git extension (if not already installed).
+Initialize a Git repository in your project folder (Terminal: git init).
+Use Git commands (integrated into VS Code commands) to stage changes (git add), commit changes with messages (git commit -m "Your message"), and push changes to a remote repository like GitHub (git push origin main).
